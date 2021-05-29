@@ -1,0 +1,33 @@
+@media only screen and (min-width: 701px) {
+    .contactBtn{
+        width: 100vw;
+        margin-top: 0.7vh;
+        height: 8vh;
+        background-color: #487a9d;
+        border-color:white;
+    }
+    .contactBtn:hover{
+        background: #41b0cd;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .contactBtn{
+        width: 100vw;
+        margin-top: 0.7vh;
+        height: 8vh;
+        background-color: #487a9d;
+        border-color:white;
+        font-family: 'Inter', sans-serif;
+    }
+    .contactBtn:hover{
+        background: #41b0cd;
+        cursor: pointer;
+    }
+    
+    .headerHomeVol3{
+        font-family: 'Inter', sans-serif;
+        font-weight: bolder;
+    }
+}

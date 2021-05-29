@@ -1,0 +1,353 @@
+@media only screen and (min-width: 701px) {
+  .loginHomePage{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#chatTitle{
+    text-align: center;
+}
+
+.underBarProstovoljci{
+    width: 100%;
+    height: 100vh;
+
+    padding-top: 20vh;
+
+    background-repeat: no-repeat;
+    background-size: auto 175vh;
+    background-position: center; 
+    background-color: white;
+}
+.headerHomeVol1{
+  text-align: center;
+  padding-top: 8vh;
+  font-weight: 900;
+  color: #153d60;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+}
+.dropdown1{
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: -6vh;
+  z-index: 100;
+
+}
+.underBarProstovoljci{
+  text-align: center;
+}
+.homesBtn{
+  width: 100vw;
+  margin-top: 2vh;
+  height: 8vh;
+  background-color: #487a9d;
+  border-color:white;
+}
+.homesBtn:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+
+.btnHomeSelect{
+  background-color: #41b0cd;
+  color: white;
+  position: relative;
+  top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58vw;
+  height: 5vh;
+  border-color: white;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+}
+.btnHomeSelect:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+.accordison-Velenje{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevVelenje.jpg');
+background-size: auto 50vh;
+background-position: bottom;
+}
+
+.accordison-Kranj{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKranj.png');
+background-size: auto 45vh;
+background-position: center;
+
+}
+.accordison-Domžale{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevDomzale.jpeg');
+background-size: auto 50vh;;
+background-position: 50% 50%;
+
+}
+.accordison-Topolšica{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevTopolscica.jpeg');
+background-size: auto 50vh;
+background-position:50% 75%;
+
+}
+.accordison-Škofja_Loka{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevSkofjaLoka.jpeg');
+background-size: auto 50vh;
+background-position: center;
+}
+.accordison-Kamnik{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKamnik.jpg');
+background-size: auto 60vh;
+background-position: center;
+}
+.accordison-Postojna{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevPostojna.jpeg');
+background-size: auto 50vh;
+background-position: 50% 55%;
+}
+.accordison-Koper{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKoper.jpg');
+background-size: auto 50vh;
+background-position: 70% 70%;
+}
+.accordison-Novo_Mesto{
+  height: 45vh;
+  background-image: url('../resources/DomUpokojencevNovoMesto.jpg');
+  background-size: auto 50vh;
+  background-position: 70% 70%;
+}
+
+.accordison-Ilirska_Bistrica{
+  height: 45vh;
+  background-image: url('../resources/DomUpokojencevIlirskaBistrica.jpg');
+  background-size: auto 50vh;
+  background-position: 70% 70%;
+}
+
+
+.HomeNameText{
+  font-size: 20px;
+  color: #487a9d;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  top: 2.5vh;
+  position: relative;
+ 
+
+}
+#btnIzbiraTermina{
+  background-color: #41b0cd;
+  color: white;
+  margin-top: 2.5vh;
+  margin-bottom: 1.5vh;
+  width: 50vw;
+  height: 6vh;
+  border-radius: 10px;
+  border-style: solid;
+  border-color:white;
+}
+#btnIzbiraTermina:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+.dropDownTermini{
+  background-color: #487a9d;
+}
+}
+
+
+@media only screen and (max-width: 700px) {
+  .loginHomePage{
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+#chatTitle{
+    text-align: center;
+}
+
+.topBarProstovoljci{
+    overflow: visible;
+    width: 100%;
+    height: 15vh;
+
+    position: fixed;
+    background-color: white;
+    background-image: url('../resources/druzabnik_smajli_blue.png');
+    background-repeat: no-repeat;
+    background-size: auto 20vh;
+    background-position: left;
+}
+.underBarProstovoljci{
+    width: 100%;
+    height: 100vh;
+
+    padding-top: 20vh;
+
+    background-repeat: no-repeat;
+    background-size: auto 175vh;
+    background-position: center; 
+    background-color: white;
+}
+.headerHomeVol1{
+  text-align: center;
+  padding-top: 8vh;
+  font-weight: 900;
+  color: #153d60;
+  font-size: 25px;
+  font-family: 'Inter', sans-serif;
+}
+.dropdown1{
+  text-align: right;
+  margin-right: 10vw;
+  margin-top: -7.5vh;
+  z-index: 100;
+  position: relative;
+}
+.underBarProstovoljci{
+  text-align: center;
+}
+.homesBtn{
+  width: 100vw;
+  margin-top: 0.7vh;
+  height: 8vh;
+  background-color: #487a9d;
+  border-color:white;
+}
+.homesBtn:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+
+.btnHomeSelect{
+  background-color: #41b0cd;
+  color: white;
+  position: relative;
+  top: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58vw;
+  height: 5vh;
+  border-color: white;
+  border-radius: 6px;
+  font-family: 'Inter', sans-serif;
+  margin: auto;
+  border-style: solid;
+  border-width: thin;
+}
+.btnHomeSelect:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+.accordison-Velenje{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevVelenje.jpg');
+background-size: auto 50vh;
+background-position: bottom;
+}
+
+.accordison-Kranj{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKranj.png');
+background-size: auto 45vh;
+background-position: center;
+
+}
+.accordison-Domžale{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevDomzale.jpeg');
+background-size: auto 50vh;;
+background-position: 50% 50%;
+
+}
+.accordison-Topolšica{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevTopolscica.jpeg');
+background-size: auto 50vh;
+background-position:50% 75%;
+
+}
+.accordison-Škofja_Loka{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevSkofjaLoka.jpeg');
+background-size: auto 50vh;
+background-position: center;
+}
+.accordison-Kamnik{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKamnik.jpg');
+background-size: auto 60vh;
+background-position: center;
+}
+.accordison-Postojna{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevPostojna.jpeg');
+background-size: auto 50vh;
+background-position: 50% 55%;
+}
+.accordison-Koper{
+height: 45vh;
+background-image: url('../resources/DomUpokojencevKoper.jpg');
+background-size: auto 50vh;
+background-position: 70% 70%;
+}
+.accordison-Novo_Mesto{
+  height: 45vh;
+  background-image: url('../resources/DomUpokojencevNovoMesto.jpg');
+  background-size: auto 50vh;
+  background-position: 70% 70%;
+}
+
+.accordison-Ilirska_Bistrica{
+  height: 45vh;
+  background-image: url('../resources/DomUpokojencevIlirskaBistrica.jpg');
+  background-size: auto 50vh;
+  background-position: 70% 70%;
+}
+
+
+.HomeNameText{
+  font-size: 20px;
+  color: #487a9d;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  top: 2.5vh;
+  position: relative;
+
+}
+#btnIzbiraTermina{
+  background-color: #41b0cd;
+  color: white;
+  margin-top: 2.5vh;
+  margin-bottom: 1.5vh;
+  width: 50vw;
+  height: 6vh;
+  border-radius: 10px;
+  border-color:white;
+}
+#btnIzbiraTermina:hover{
+  background: #487a9d;
+  cursor: pointer;
+}
+.dropDownTermini{
+  background-color: #487a9d;
+}
+    
+}

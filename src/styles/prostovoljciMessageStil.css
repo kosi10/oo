@@ -1,0 +1,387 @@
+@media only screen and (min-width: 701px) {
+    .dropbtn {
+        background-image: url("../resources/menu_pik.png");
+        background-size: auto 7vh;
+
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 7vh;
+        height: 7vh;
+
+        border-radius: 5px;
+    
+      }
+      
+      
+      .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        z-index: 2;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropcheck {
+        position: absolute;
+        left: -9999px;
+        }
+    
+        .dropcheck:checked ~ .dropdown-content {
+         display: block;
+        }
+    
+
+
+    .headerHomeVol{
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 8vh;
+        font-weight: bolder;
+        color: #153d60;
+        font-size: 3vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #prostovoljciMessageStil{
+        width:100%;
+        height:100vh;
+    }
+
+    .topBarProstovoljci{
+        overflow: visible;
+
+        
+        width: 100%;
+        height: 20vh;
+        
+        position: fixed;
+        background-color: white;
+        background-image: url('../resources/druzabnik_smajli_blue.png');
+        background-repeat: no-repeat;
+        background-size: auto 15vh;
+        background-position: left;
+    }
+
+
+    body{
+        background-color: #487a9d;
+    }
+
+    #chatTitle{
+        text-align: center;
+        margin-bottom: 7vh;
+        margin-top: 4vh;
+        color: white;
+        font-size: 5vw;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .underBarProstovoljciChat{
+        width: 100%;
+        height: 100%;
+        padding-top: 20vh;
+        background-repeat: no-repeat;
+        background-size: 100vw 100%;
+        background-position: center; 
+        background-color: #487a9d;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+    .messageLeft{
+        background-color: #43b1cc;
+        color:white;
+        word-wrap: break-word;
+        width: fit-content;
+        float:left;
+        clear:both;
+        border-radius: 10px;
+        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        padding-top: 1vw;
+        padding-bottom:  1vw;
+
+        margin-top: 3vh;
+        margin-left: 30vw;
+        margin-right: 40vw;
+        font-family: 'Inter', sans-serif;
+    }
+    .messageRight{
+        background-color: #153d60;
+        color:white;
+        word-wrap: break-word;
+        width: fit-content;
+        float:right;
+        clear: both;
+        border-radius: 10px;
+        
+        padding-right: 2vw;
+        padding-left: 2vw;
+        padding-top:  1vw;
+        padding-bottom:  1vw;
+
+        margin-top: 3vh;
+        margin-right: 30vw;
+        margin-left: 40vw;
+        font-family: 'Inter', sans-serif;
+    }
+
+    
+    #newMessage{
+        float:right;
+        clear: both;
+        margin-right: 30vw;
+        margin-top:8vh;
+        margin-bottom: 2vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #newMessage #tekst{
+        height: 3vh;
+        width:36vw;
+        border-style: none;
+        padding-left: 2vw;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #newMessage #tekstPoslji{
+        border-style: none;
+        padding: 0%;
+        margin-left: 2vw;
+        height: 3vw;
+        width: 3vw;
+        border-radius: 0.6vw;
+        background-image: url("../resources/send_pik.png");
+        background-repeat: no-repeat;
+        background-size: auto 3vw;
+        background-position: 0% 0%;
+        font-family: 'Inter', sans-serif;
+    }
+    #newMessage #tekstPoslji:hover{
+        height: 5vh;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-style: solid;
+        background-color: #43b1cc;
+        color:white;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .dropbtn {
+        background-image: url("../resources/menu_pik.png");
+        background-size: auto 13vw;
+
+        color: white;
+        border: none;
+        cursor: pointer;
+        width: 13vw;
+        height: 13vw;
+
+        border-radius: 5px;
+    
+      }
+      
+      .dropdown {
+        float: right;
+        position: relative;
+        display: inline-block;
+        margin-top: -6vh;
+        margin-right: 10vw;
+      }
+      
+      .dropdown-content {
+        display: none;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        z-index: 2;
+        position: relative;
+      }
+      
+      .dropdown-content a:hover {background-color: #f1f1f1}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropcheck {
+        position: absolute;
+        left: -9999px;
+        }
+    
+        .dropcheck:checked ~ .dropdown-content {
+         display: block;
+        }
+    
+
+
+    .headerHomeVol{
+        font-size: 5vw;
+        text-align: center;
+        padding-top: 8vh;
+        font-weight: bolder;
+        color: #153d60;
+        font-size: 3vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #prostovoljciMessageStil{
+        width:100%;
+        height:100vh;
+    }
+
+    .topBarProstovoljci{
+        overflow: visible;
+
+        
+        width: 100%;
+        height: 20vh;
+        
+        position: fixed;
+        background-color: white;
+        background-image: url('../resources/druzabnik_smajli_blue.png');
+        background-repeat: no-repeat;
+        background-size: auto 15vh;
+        background-position: left;
+        position: absolute;
+        z-index: 5;
+    }
+
+
+    body{
+        background-color: #487a9d;
+    }
+
+    #chatTitle{
+        text-align: center;
+        margin-bottom: 7vh;
+        margin-top: 4vh;
+        color: white;
+        font-size: 5vw;
+        font-weight: bold;
+        font-family: 'Inter', sans-serif;
+    }
+
+    .underBarProstovoljciChat{
+        width: 100%;
+        height: 100%;
+        padding-top: 20vh;
+        background-repeat: no-repeat;
+        background-size: 100vw 100%;
+        background-position: center; 
+        background-color: #487a9d;
+        font-family: 'Inter', sans-serif;
+    }
+
+
+    .messageLeft{
+        background-color: #43b1cc;
+        color:white;
+        word-wrap: break-word;
+        width: fit-content;
+        float:left;
+        clear:both;
+        border-radius: 10px;
+        
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-top: 2vw;
+        padding-bottom:  2vw;
+
+        margin-top: 3vh;
+        margin-left: 10vw;
+        margin-right: 30vw;
+        font-family: 'Inter', sans-serif;
+    }
+    .messageRight{
+        background-color: #153d60;
+        color:white;
+        word-wrap: break-word;
+        width: fit-content;
+        float:right;
+        clear: both;
+        border-radius: 10px;
+        
+        padding-right: 5vw;
+        padding-left: 5vw;
+        padding-top:  2vw;
+        padding-bottom:  2vw;
+
+        margin-top: 3vh;
+        margin-right: 10vw;
+        margin-left: 30vw;
+        font-family: 'Inter', sans-serif;
+    }
+
+    
+    #newMessage{
+        float:right;
+        clear: both;
+        margin-right: 7vw;
+        margin-top:8vh;
+        margin-bottom: 2vh;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #newMessage #tekst{
+        height: 5vh;
+        width:70vw;
+        border-style: none;
+        padding-left: 2vw;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #newMessage #tekstPoslji{
+        border-style: none;
+        padding: 0%;
+        margin-left: 5vw;
+        height: 10vw;
+        width: 10vw;
+        border-radius: 2vw;
+        background-image: url("../resources/send_pik.png");
+        background-repeat: no-repeat;
+        background-size: auto 10vw;
+        background-position: 0% 0%;
+        font-family: 'Inter', sans-serif;
+    }
+    #newMessage #tekstPoslji:hover{
+        height: 5vh;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-style: solid;
+        background-color: #43b1cc;
+        color:white;
+        font-family: 'Inter', sans-serif;
+    }
+
+}

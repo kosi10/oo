@@ -1,19 +1,25 @@
 import Vue from 'vue';
-import VeeValidate from 'vee-validate';
+import Vuelidate from 'vuelidate';
+import Vuetify from 'vuetify'
+import {BootstrapVue, IconsPlugin} from 'bootstrap-vue'
+import VueResource from 'vue-resource';
 
-import { store } from './_store';
 import { router } from './_helpers';
 import App from './app/App';
 
-Vue.use(VeeValidate);
-
 // setup fake backend
-import { configureFakeBackend } from './_helpers';
-configureFakeBackend();
+//import { configureFakeBackend } from './_helpers';
+//configureFakeBackend();
+
+Vue.use(Vuelidate);
+Vue.use(Vuetify)
+Vue.use(BootstrapVue)
+Vue.use(IconsPlugin)
+Vue.use(VueResource)
+
 
 new Vue({
     el: '#app',
     router,
-    store,
     render: h => h(App)
 });

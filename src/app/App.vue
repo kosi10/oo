@@ -1,36 +1,35 @@
+export * from './authentication.service';
+export * from './user.service';
+export * from './home.service';
 <template>
-    <div class="jumbotron">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 offset-sm-3">
-                    <div v-if="alert.message" :class="`alert ${alert.type}`">{{alert.message}}</div>
-                    <router-view></router-view>
-                </div>
-            </div>
-        </div>
-    </div>
+    <router-view></router-view>
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { authenticationService } from '@/_services';
+import { router, Role } from '@/_helpers';
+
 
 export default {
     name: 'app',
+    data () {
+        return {
+            currentUser: null
+        };
+    },
     computed: {
-        ...mapState({
-            alert: state => state.alert
-        })
+        isAdmin () {
+            return this.currentUser && this.currentUser.role === Role.Admin;
+        }
+    },
+    created () {
+        authenticationService.currentUser.subscribe(x => this.currentUser = x);
     },
     methods: {
-        ...mapActions({
-            clearAlert: 'alert/clear' 
-        })
-    },
-    watch: {
-        $route (to, from){
-            // clear alert on location change
-            this.clearAlert();
+        logout () {
+            authenticationService.logout();
+            router.push('/login');
         }
-    } 
+    }
 };
 </script>

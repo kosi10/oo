@@ -1,0 +1,218 @@
+@media only screen and (min-width: 701px) {
+    .prvaStranStil{
+        width: 100vw;
+        height: 80vh;
+        
+    }
+    
+    .topbar{
+        overflow: visible;
+        top: 0;
+        width: 100%;
+        height: 20vh;
+        position: fixed;
+        background-color: white;
+        background-image: url('../resources/druzabnik_digonala.png');
+        background-repeat: no-repeat;
+        background-size: auto 30vh;
+        background-position: center;
+    }
+    
+    .underbar{
+        width: 100%;
+        height: 80vh;
+        margin-top: 20vh;
+        background-image: url('../resources/main_image_klopca.jpg');
+        background-repeat: no-repeat;
+        background-size: auto 100vw; 
+        background-position: center; 
+    }
+    
+    .credits{
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(255, 255, 255);
+       color: rgb(23, 59, 94);
+       text-align: center;
+       font-family: 'Inter', sans-serif;
+    }
+    #prvaForm1{
+        padding-top: 1em;
+        
+    }
+    #prvaForm2{
+        padding-top: 1em;
+    }
+    
+    #descriptionText{
+        color: white;
+        position: relative;
+        font-weight: 100;
+        padding-top: 5vh;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Inter';
+        font-stretch: 25;
+    }
+    
+    #descriptionText1{
+        color: white;
+        position: relative;
+        font-weight: 100;
+        margin-top: 35vh;
+        text-align: center;
+        font-size: 15px;
+        font-family: 'Inter';
+        font-stretch: 25;
+    }
+    
+    #prvaStranButton1{
+        background-color: #41b0cd;
+        color: white;
+        border-color:white;
+        position: relative;
+        margin-left: 35vw;
+        width: 30vw;
+        height: 5vh;
+        border-style: solid;
+        border-radius: 6px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        margin-top: 2%;
+    }
+    #prvaStranButton1:hover{
+        background: #173b5e;
+        cursor: pointer;
+    }
+    
+    #prvaStranButton2{
+        background-color: #41b0cd;
+        color: white;
+        border-color:white;
+        position: relative;
+        margin-left: 35vw;
+        width: 30vw;
+        height: 5vh;
+        border-style: solid;
+        border-radius: 6px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
+    #prvaStranButton2:hover{
+        background: #173b5e;
+        cursor: pointer;
+    }
+  }
+
+@media only screen and (max-width: 700px) {
+    .prvaStranStil{
+        width: 100vw;
+        height: 80vh;
+        
+    }
+    
+    .topbar{
+        overflow: visible;
+        top: 0;
+        width: 100%;
+        height: 20vh;
+        position: fixed;
+        background-color: white;
+        background-image: url('../resources/druzabnik_digonala.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    .underbar{
+        width: 100%;
+        height: 80vh;
+        background-image: url('../resources/main_image_klopca.jpg');
+        background-repeat: no-repeat;
+        background-size: auto 100vh; 
+        background-position: center;
+        margin-top: 20vh; 
+    }
+    
+    .credits{
+       position: fixed;
+       left: 0;
+       bottom: 0;
+       width: 100%;
+       background-color: rgb(255, 255, 255);
+       color: rgb(23, 59, 94);
+       text-align: center;
+       font-family: 'Inter', sans-serif;
+    }
+    #prvaForm1{
+        padding-top: 1em;
+        
+    }
+    #prvaForm2{
+        padding-top: 1em;
+    }
+    
+    #descriptionText{
+        color: white;
+        position: relative;
+        font-weight: 100;
+        padding-top: 10vh;
+        text-align: center;
+        font-size: 11px;
+        font-family: 'Inter';
+        font-stretch: 25;
+    }
+    
+    #descriptionText1{
+        color: white;
+        position: relative;
+        font-weight: 100;
+        margin-top: 28vh;
+        text-align: center;
+        font-size: 11px;
+        font-family: 'Inter';
+        font-stretch: 25;
+    }
+    
+    #prvaStranButton1{
+        background-color: #41b0cd;
+        color: white;
+        border-color:white;
+        position: relative;
+        top: -0.5vh;
+        margin-left: 26vw;
+        width: 52vw;
+        height: 4.5vh;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
+    #prvaStranButton1:hover{
+        background: #173b5e;
+        cursor: pointer;
+    }
+    
+    #prvaStranButton2{
+        background-color: #41b0cd;
+        color: white;
+        border-color:white;
+        position: relative;
+        top: -3.5vh;
+        margin-left: 26vw;
+        width: 52vw;
+        height: 4.5vh;
+        border-radius: 6px;
+        border-style: solid;
+        border-width: 1px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+    }
+    #prvaStranButton2:hover{
+        background: #173b5e;
+        cursor: pointer;
+    }
+  }
