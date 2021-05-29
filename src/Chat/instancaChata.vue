@@ -46,9 +46,9 @@
 
 <script>
     import config from 'config';
-    import { requestOptions, handleResponse } from '@/_helpers';
-    import { router } from '@/_helpers';
-    import { authenticationService } from '@/_services';
+    import { requestOptions, handleResponse } from '../_helpers';
+    import { router } from '../_helpers';
+    import { authenticationService } from '../_services';
     export default {
         data(){
             return{

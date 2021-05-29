@@ -1,42 +1,30 @@
 <template>
     <div>
-        <h1>Hi {{account.user.firstName}}!</h1>
-        <p>You're logged in with Vue + Vuex & JWT!!</p>
-        <h3>Users from secure api end point:</h3>
-        <em v-if="users.loading">Loading users...</em>
-        <span v-if="users.error" class="text-danger">ERROR: {{users.error}}</span>
-        <ul v-if="users.items">
-            <li v-for="user in users.items" :key="user.id">
-                {{user.firstName + ' ' + user.lastName}}
-                <span v-if="user.deleting"><em> - Deleting...</em></span>
-                <span v-else-if="user.deleteError" class="text-danger"> - ERROR: {{user.deleteError}}</span>
-                <span v-else> - <a @click="deleteUser(user.id)" class="text-danger">Delete</a></span>
-            </li>
-        </ul>
-        <p>
-            <router-link to="/login">Logout</router-link>
-        </p>
+        <h1>Home</h1>
+        <p>You're logged in with Vue.js & JWT!!</p>
+        <p>Your role is: <strong>{{currentUser.role}}</strong>.</p>
+        <p>This page can be accessed by all authenticated users.</p>
+        <div>
+            Current user from secure api end point:
+            <ul v-if="userFromApi">
+                <li>{{userFromApi.firstName}} {{userFromApi.lastName}}</li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
+import { handleResponse, requestOptions } from '../_helpers';
 
 export default {
-    computed: {
-        ...mapState({
-            account: state => state.account,
-            users: state => state.users.all
-        })
+    data () {
+        return {
+            currentUser: authenticationService.currentUserValue,
+            userFromApi: null
+        };
     },
     created () {
-        this.getAllUsers();
-    },
-    methods: {
-        ...mapActions('users', {
-            getAllUsers: 'getAll',
-            deleteUser: 'delete'
-        })
+        getById(this.currentUser.id).then(user => this.userFromApi = user);
     }
 };
 </script>

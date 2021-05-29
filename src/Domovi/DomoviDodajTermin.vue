@@ -38,8 +38,8 @@
 
 <script>
 
-import { router } from '@/_helpers';
-import { authenticationService } from '@/_services';
+import { router } from '../_helpers';
+import { authenticationService } from '../_services';
 
     export default {
 

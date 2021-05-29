@@ -3,7 +3,6 @@ import Router from 'vue-router';
 
 import { authenticationService } from '../_services';
 import { Role } from '../_helpers';
-import HomePage from '../home/HomePage';
 import AdminPage from '../admin/AdminPage';
 import LoginPage from '../login/LoginPage';
 import PrvaStran from '../home/PrvaStran';
