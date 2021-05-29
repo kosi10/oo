@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import { authenticationService, userService } from '@/_services';
+import { authenticationService, userService } from '../_services';
 
 export default {
     data () {

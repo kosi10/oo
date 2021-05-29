@@ -6,8 +6,8 @@ export * from './home.service';
 </template>
 
 <script>
-import { authenticationService } from '@/_services';
-import { router, Role } from '@/_helpers';
+import { authenticationService } from '../_services';
+import { router, Role } from '../_helpers';
 
 
 export default {
